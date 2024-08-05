@@ -8,6 +8,10 @@ const SearchBox = ({ onSearch }) => {
     const inputRef = useRef(null);
 
     const handleSearch = () => {
+        if (query === "") {
+            setQuery('')
+            onSearch(query);
+        }
         if (query.trim()) {
             onSearch(query);
         }

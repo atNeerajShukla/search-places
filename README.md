@@ -23,15 +23,9 @@ This project allows users to search for places and view details such as place na
     npm install
     ```
 
-3. Create a `.env` file and add your API URL and key
-    ```env
-    REACT_APP_API_URL=https://wft-geo-db.p.rapidapi.com
-    REACT_APP_API_KEY=your_api_key_here
-    ```
-
-4. Start the application
+3. Start the application
     ```bash
-    npm start
+    npm run dev
     ```
 
 ### Usage

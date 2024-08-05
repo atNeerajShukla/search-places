@@ -23,7 +23,7 @@ export const useFetch = (query, limit, offset) => {
         };
 
         fetchData();
-    }, [query, offset]);
+    }, [query]);
 
     return { data, loading, error };
 };
